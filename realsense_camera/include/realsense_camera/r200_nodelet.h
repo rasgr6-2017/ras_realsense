@@ -66,7 +66,6 @@ namespace realsense_camera
     void configCallback(realsense_camera::r200_paramsConfig &config, uint32_t level);
     void setStreams();
     void publishTopics();
-    void publishStaticTransforms();
   };
 }
 #endif
